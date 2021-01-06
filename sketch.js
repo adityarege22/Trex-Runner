@@ -63,6 +63,7 @@ function draw() {
   trex.collide(invisibleGround);
   spawnClouds();
   spawnObstacles();
+  camera.x = trex.x;
   drawSprites();
 }
 
